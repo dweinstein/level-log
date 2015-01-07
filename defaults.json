@@ -1,0 +1,8 @@
+{
+  "dev": {
+    "type": "udp4",
+    "port": 9999,
+    "web_port": 8080,
+    "db": "./log.db"
+  }
+}

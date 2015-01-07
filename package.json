@@ -1,0 +1,42 @@
+{
+  "name": "level-udp-log",
+  "version": "1.0.0",
+  "description": "receive udp packets and log them in leveldb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon index.js"
+  },
+  "keywords": [
+    "leveldb",
+    "logging",
+    "log",
+    "level",
+    "nosql",
+    "udp",
+    "winston",
+    "bunyan"
+  ],
+  "author": "dweinstein",
+  "license": "ISC",
+  "dependencies": {
+    "JSONStream": "^0.9.0",
+    "level": "^0.18.0",
+    "levelweb": "^1.2.1",
+    "lodash": "^2.4.1",
+    "modella": "^0.2.14",
+    "modella-leveldb": "git+https://github.com/dweinstein/modella-leveldb.git#subindex",
+    "modella-validators": "^0.1.2",
+    "moment": "^2.8.4",
+    "rc": "^0.5.4",
+    "split": "^0.3.2",
+    "through2": "^0.6.3",
+    "timehat": "0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.2.1",
+    "tap": "^0.4.13",
+    "winston": "^0.8.3",
+    "winston-logstash-udp": "0.0.4"
+  }
+}
